@@ -6726,6 +6726,13 @@ button.close {
 .olControlLayerSwitcher {
   display: none;
 }
+#chart {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  top: 20px;
+  left: 70px;
+  border: 1px solid gray;
+}
 #chart .axis path,
 #chart .axis line {
   fill: none;
@@ -6747,8 +6754,11 @@ button.close {
 #chart .focus circle {
   fill: black;
 }
-#chart line.cursor {
+#chart line.date {
   stroke: black;
   stroke-dasharray: 3,3;
   stroke-width: 1;
+}
+#chart line.cursor {
+  stroke: gray;
 }
