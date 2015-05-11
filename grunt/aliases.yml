@@ -1,0 +1,12 @@
+
+compile:
+  - less
+  - concat
+
+compile:min:
+  - compile
+  - uglify
+
+default:
+  - compile
+  - watch

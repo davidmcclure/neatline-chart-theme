@@ -1,0 +1,31 @@
+{
+  "name": "neatline-chart-theme",
+  "version": "0.0.0",
+  "description": "A base Neatline exhibit theme with a simple d3 chart.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidmcclure/neatline-chart-theme.git"
+  },
+  "author": "David McClure <davidwilliammcclure@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmcclure/neatline-chart-theme/issues"
+  },
+  "homepage": "https://github.com/davidmcclure/neatline-chart-theme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1",
+    "load-grunt-config": "^0.17.1",
+    "time-grunt": "^1.2.0",
+    "uglify": "^0.1.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "d3": "^3.5.5",
+    "lesshat": "^3.0.2",
+    "nprogress": "^0.1.6"
+  }
+}
